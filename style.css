@@ -7,8 +7,10 @@ body {
   animation:bg-pan-left 8s both;
   font-family: 'Roboto', sans-serif;
 	list-style-type: none;
-  }
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
 ul {
   list-style-type: none;
@@ -26,7 +28,6 @@ h2 {
   color: #181c20;
 }
   
-  
 a {
     text-decoration: none;
 }
@@ -36,9 +37,6 @@ a {
   border-radius: 60px;
 }
 
-.fas {
-  color: black;
-}
 
 .text-center {
   text-align: center;
