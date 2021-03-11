@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,900&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  -webkit-animation:bg-pan-left 8s both;
+  animation:bg-pan-left 8s both;
+  font-family: 'Roboto', sans-serif;
+	list-style-type: none;
+  }
+
+  
+ul {
+  list-style-type: none;
+  margin-right: 50px;
+  color: black;
+}
+
+h1 {
+  color: #181c20;
+  font-weight: 900;
+  line-height: 1.7;
+}
+  
+h2 {
+  color: #181c20;
+}
+  
+  
+a {
+    text-decoration: none;
+}
+  
+  .image-circle {
+  width : 200px;
+  border-radius: 60px;
+}
+
+.fas {
+  color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  padding: 10px;
+  border: 1px lightgrey;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-white {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-white {
+    width: 300px;
+  }
+}
+
+
+.tracking-in-expand-fwd-top{-webkit-animation:tracking-in-expand-fwd-top .8s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand-fwd-top .8s cubic-bezier(.215,.61,.355,1.000) both}
+
+@-webkit-keyframes tracking-in-expand-fwd-top{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px) translateY(-500px);transform:translateZ(-700px) translateY(-500px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0) translateY(0);transform:translateZ(0) translateY(0);opacity:1}}@keyframes tracking-in-expand-fwd-top{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px) translateY(-500px);transform:translateZ(-700px) translateY(-500px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0) translateY(0);transform:translateZ(0) translateY(0);opacity:1}}
+
+.color-change-2x{-webkit-animation:color-change-2x 2s linear infinite alternate both;animation:color-change-2x 2s linear infinite alternate both}
+
+@-webkit-keyframes color-change-2x{0%{background:#04484d}100%{background:#143A52}}@keyframes color-change-2x{0%{background:#04676e}100%{background:#143A52}}
