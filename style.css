@@ -10,7 +10,16 @@ body {
   align-self: auto;
 }
 
+.particles-js-canvas-el {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
 
+.particle-js {
+  position: relative;
+}
   
 ul {
   list-style-type: none;
@@ -32,7 +41,7 @@ a {
     text-decoration: none;
 }
   
-  .image-circle {
+.image-circle {
   width : 200px;
   border-radius: 60px;
 }
@@ -48,6 +57,7 @@ a {
   margin: auto;
   width: 50%;
   text-align: center;
+  z-index: 1;
 }
 
 @media (max-width: 960px) {
